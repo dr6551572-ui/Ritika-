@@ -78,3 +78,4 @@ current=0;
 document.querySelector(".hero").style.backgroundImage=`url('${photos[current]}')`;
 
 },4000);
+
