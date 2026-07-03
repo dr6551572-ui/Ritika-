@@ -63,19 +63,18 @@ const photos=[
 "R_4.jpeg"
 ];
 
-let current=0;
+let current = 0;
 
-setInterval(()=>{
-
-current++;
-
-if(current>=photos.length){
-
-current=0;
-
-}
-
-document.querySelector(".hero").style.backgroundImage=`url('${photos[current]}')`;
-
-},4000);
+setInterval(() => {
+    // 1. Pehle current number waali photo screen par dikhao
+    document.querySelector(".hero").style.backgroundImage = `url('${photos[current]}')`;
+    
+    // 2. Ab agli photo ke liye number ko 1 badhao
+    current++;
+    
+    // 3. Agar number 4 (photos.length) ho jaye, toh wapas 0 kar do
+    if (current >= photos.length) {
+        current = 0;
+    }
+}, 4000);
 
