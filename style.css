@@ -752,3 +752,11 @@ color:#ffb6d9;
 text-shadow:0 0 15px hotpink;
 
 }
+
+/* Navbar ke andar Ritika Ji waale text ko style karne ke liye */
+.logo {
+    color: #ff4d6d; /* Isse text pink/red color ka ho jayega, aap apna manpasand color code bhi daal sakte hain */
+    font-size: 1.5rem; /* Isse text thoda bada dikhega */
+    font-weight: bold; /* Isse text bold ho jayega */
+    text-shadow: 0 0 10px rgba(255, 77, 109, 0.3); /* Halka sa glow effect */
+}
