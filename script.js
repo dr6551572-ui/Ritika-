@@ -58,9 +58,9 @@ envelope.classList.toggle("open");
 
 const photos=[
 "R_1.jpeg",
-"images/R_2.jpeg",
+"R_2.jpeg",
 "R_3.jpeg",
-"images/R_4.jpeg"
+"R_4.jpeg"
 ];
 
 let current=0;
