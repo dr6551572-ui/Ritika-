@@ -57,9 +57,9 @@ envelope.classList.toggle("open");
 }
 
 const photos=[
-"images/R_1.jpeg",
+"R_1.jpeg",
 "images/R_2.jpeg",
-"images/R_3.jpeg",
+"R_3.jpeg",
 "images/R_4.jpeg"
 ];
 
